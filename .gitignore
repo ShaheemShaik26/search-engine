@@ -1,0 +1,15 @@
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+build/
+dist/
+benchmark_results.json
+benchmark_report.json
+benchmark_summary.txt
+benchmark_summary.md
+benchmark_summary.html

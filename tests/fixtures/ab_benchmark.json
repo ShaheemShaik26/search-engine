@@ -1,0 +1,85 @@
+{
+  "cases": [
+    {
+      "query": {
+        "query": "What is the capital of France?",
+        "expected_facts": ["Paris is the capital of France"],
+        "expected_answer": "Paris is the capital of France."
+      },
+      "candidate_hits": [
+        {
+          "id": "p1",
+          "content": "France's capital is Paris. It is a major European city known for governance and culture.",
+          "source_name": "wikipedia.org",
+          "score": 0.82,
+          "rerank_score": 0.82,
+          "metadata": {"topic": "geography"},
+          "published_at": "2026-01-01T00:00:00+00:00"
+        },
+        {
+          "id": "p2",
+          "content": "Lyon is a major city in France with economic importance.",
+          "source_name": "example.com",
+          "score": 0.76,
+          "rerank_score": 0.76,
+          "metadata": {"topic": "geography"},
+          "published_at": "2025-01-01T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query": "Which planet is known as the Red Planet?",
+        "expected_facts": ["Mars is known as the Red Planet"],
+        "expected_answer": "Mars is known as the Red Planet."
+      },
+      "candidate_hits": [
+        {
+          "id": "m1",
+          "content": "Mars is known as the Red Planet because of iron oxide on its surface.",
+          "source_name": "arxiv.org",
+          "score": 0.79,
+          "rerank_score": 0.79,
+          "metadata": {"topic": "astronomy"},
+          "published_at": "2026-03-10T00:00:00+00:00"
+        },
+        {
+          "id": "m2",
+          "content": "Jupiter is the largest planet in the solar system.",
+          "source_name": "example.com",
+          "score": 0.73,
+          "rerank_score": 0.73,
+          "metadata": {"topic": "astronomy"},
+          "published_at": "2024-03-10T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "query": {
+        "query": "What protocol is used for secure web browsing?",
+        "expected_facts": ["HTTPS is used for secure web browsing"],
+        "expected_answer": "HTTPS is used for secure web browsing."
+      },
+      "candidate_hits": [
+        {
+          "id": "w1",
+          "content": "HTTPS is the secure version of HTTP and is used for encrypted web browsing.",
+          "source_name": "github.com",
+          "score": 0.75,
+          "rerank_score": 0.75,
+          "metadata": {"topic": "networking"},
+          "published_at": "2025-12-10T00:00:00+00:00"
+        },
+        {
+          "id": "w2",
+          "content": "FTP is used for file transfer.",
+          "source_name": "example.com",
+          "score": 0.71,
+          "rerank_score": 0.71,
+          "metadata": {"topic": "networking"},
+          "published_at": "2023-12-10T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}
