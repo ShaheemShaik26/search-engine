@@ -168,4 +168,4 @@ The implemented project is validated with regression tests and benchmark smoke t
 - `tests`: regression tests and benchmark fixtures.
 
 ## Notes
-This project is structured as a production foundation. The LLM layer is provider-agnostic, so you can wire it to an OpenAI-compatible endpoint or any internal model gateway.
+This project is structured as a production foundation. The LLM layer is provider-agnostic, so you can wire it to an any Chat Completions-compatible endpoint or any internal model gateway.
